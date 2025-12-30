@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brand Name | Apps & Links</title>
     
+    <title>Masa Muda Projects | Apps & Links</title>
+    <meta name="description" content="Random Automotive & Electrical Projects. Download Juken Data Logger and connect with us.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masamudaprojects.github.io/">
+    <meta property="og:title" content="Masa Muda Projects">
+    <meta property="og:description" content="Random Automotive & Electrical Projects. Download Juken Data Logger.">
+    <meta property="og:image" content="https://masamudaprojects.github.io/preview.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://masamudaprojects.github.io/">
+    <meta name="twitter:title" content="Masa Muda Projects">
+    <meta name="twitter:description" content="Random Automotive & Electrical Projects.">
+    <meta name="twitter:image" content="https://masamudaprojects.github.io/preview.jpg">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
@@ -65,7 +78,7 @@
 
         /* --- HOME PROFILE STYLES --- */
         .brand-header { text-align: center; margin-bottom: 40px; }
-        
+
         .brand-logo {
             width: 100px;
             height: 100px;
@@ -92,7 +105,7 @@
             transition: all 0.2s;
             cursor: pointer;
             box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-            width: 100%; /* Ensure full width */
+            width: 100%;
             font-size: 1rem;
         }
         .btn:hover {
@@ -100,7 +113,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
             border-color: #ccc;
         }
-        
+
         /* Featured Button (The App Opener) */
         .btn.featured {
             background-color: var(--text-color);
@@ -116,7 +129,7 @@
             align-items: center;
             margin-bottom: 30px;
         }
-        
+
         .back-btn {
             background: none;
             border: none;
@@ -144,17 +157,17 @@
             border-radius: 12px;
             object-fit: cover;
             margin-right: 15px;
-            background-color: #eee; /* Placeholder color */
+            background-color: #eee;
         }
 
         .app-info { flex: 1; }
-        
+
         .app-info h3 {
             font-size: 1rem;
             margin-bottom: 4px;
             font-weight: 700;
         }
-        
+
         .app-info p {
             font-size: 0.85rem;
             color: var(--accent-color);
@@ -174,7 +187,7 @@
             border: 1px solid var(--border-color);
             transition: 0.2s;
         }
-        
+
         .download-btn:hover {
             background-color: var(--text-color);
             color: #fff;
@@ -190,98 +203,81 @@
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <div id="home-view" class="view fade-in">
-            <div class="brand-header">
-                <img src="logo.png" alt="Brand Logo" class="brand-logo">
-                <h1>BrandName</h1>
-                <p class="tagline">Innovative tools for modern creators.</p>
-            </div>
-
-            <button onclick="showApps()" class="btn featured">
-                <span style="font-weight: 700;">Explore Our Apps</span>
-                <i class="fas fa-layer-group"></i>
-            </button>
-
-            <a href="https://yourbrand.com" class="btn" target="_blank">
-                <span>Website</span>
-                <i class="fas fa-globe"></i>
-            </a>
-
-            <a href="https://instagram.com" class="btn" target="_blank">
-                <span>Instagram</span>
-                <i class="fab fa-instagram"></i>
-            </a>
-
-            <a href="mailto:hello@brand.com" class="btn">
-                <span>Contact</span>
-                <i class="far fa-envelope"></i>
-            </a>
-            
-            <footer>&copy; 2024 BrandName</footer>
+    <div id="home-view" class="view fade-in">
+        <div class="brand-header">
+            <img src="logo.png" alt="Brand Logo" class="brand-logo">
+            <h1>Masa Muda Projects</h1>
+            <p class="tagline">Random Automotive & Electrical Projects.</p>
         </div>
 
+        <button onclick="showApps()" class="btn featured">
+            <span style="font-weight: 700;">Explore Our Apps</span>
+            <i class="fas fa-layer-group"></i>
+        </button>
 
-        <div id="apps-view" class="view hidden">
-            
-            <div class="app-header">
-                <button onclick="showHome()" class="back-btn">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <h2 style="font-family: var(--font-serif);">Our Apps</h2>
+        <a href="https://www.facebook.com/share/17gxRrXDXk/?mibextid=wwXIfr" class="btn" target="_blank">
+            <span>Facebook</span>
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://instagram.com/masamudaprojects" class="btn" target="_blank">
+            <span>Instagram</span>
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://tiktok.com/@jacktrade67" class="btn" target="_blank">
+            <span>TikTok</span>
+            <i class="fab fa-tiktok"></i>
+        </a>
+
+        <a href="mailto:masamudaprojects@gmail.com" class="btn">
+            <span>Contact</span>
+            <i class="far fa-envelope"></i>
+        </a>
+
+        <footer>&copy; 2026 Masa Muda Projects</footer>
+    </div>
+
+
+    <div id="apps-view" class="view hidden">
+
+        <div class="app-header">
+            <button onclick="showHome()" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2 style="font-family: var(--font-serif);">Our Apps</h2>
+        </div>
+
+        <div class="app-card">
+            <img src="juken-data-logger.png" alt="App Icon" class="app-icon">
+            <div class="app-info">
+                <h3>Juken Data Logger</h3>
+                <p>Convenience Data Logger for Juken ECU.</p>
             </div>
-
-            <div class="app-card">
-                <img src="app1.png" alt="App Icon" class="app-icon">
-                <div class="app-info">
-                    <h3>Photo Editor Pro</h3>
-                    <p>Advanced filters & AI tools.</p>
-                </div>
-                <a href="https://play.google.com/store/apps/details?id=com.yourapp1" class="download-btn" target="_blank">
-                    <i class="fas fa-download"></i>
-                </a>
-            </div>
-
-            <div class="app-card">
-                <img src="app2.png" alt="App Icon" class="app-icon">
-                <div class="app-info">
-                    <h3>Daily Tracker</h3>
-                    <p>Minimalist habit tracking.</p>
-                </div>
-                <a href="https://play.google.com/store/apps/details?id=com.yourapp2" class="download-btn" target="_blank">
-                    <i class="fas fa-download"></i>
-                </a>
-            </div>
-
-            <div class="app-card">
-                <img src="app3.png" alt="App Icon" class="app-icon">
-                <div class="app-info">
-                    <h3>Finance Mate</h3>
-                    <p>Manage expenses easily.</p>
-                </div>
-                <a href="https://play.google.com/store/apps/details?id=com.yourapp3" class="download-btn" target="_blank">
-                    <i class="fas fa-download"></i>
-                </a>
-            </div>
-
+            <a href="https://play.google.com/store/apps/details?id=id.masamuda.juken.datalogger" class="download-btn" target="_blank">
+                <i class="fas fa-download"></i>
+            </a>
         </div>
 
     </div>
 
-    <script>
-        function showApps() {
-            document.getElementById('home-view').classList.add('hidden');
-            document.getElementById('apps-view').classList.remove('hidden');
-            document.getElementById('apps-view').classList.add('fade-in');
-        }
+</div>
 
-        function showHome() {
-            document.getElementById('apps-view').classList.add('hidden');
-            document.getElementById('home-view').classList.remove('hidden');
-            document.getElementById('home-view').classList.add('fade-in');
-        }
-    </script>
+<script>
+    function showApps() {
+        document.getElementById('home-view').classList.add('hidden');
+        document.getElementById('apps-view').classList.remove('hidden');
+        document.getElementById('apps-view').classList.add('fade-in');
+    }
+
+    function showHome() {
+        document.getElementById('apps-view').classList.add('hidden');
+        document.getElementById('home-view').classList.remove('hidden');
+        document.getElementById('home-view').classList.add('fade-in');
+    }
+</script>
 
 </body>
 </html>
